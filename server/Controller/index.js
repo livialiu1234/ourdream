@@ -1,13 +1,8 @@
-module.exports = function(route, render) {
-	route('/')
+'use strict'
+module.exports = function(router, render, modules) {
+	router
 		.get(function*() {
-			console.log(this);
 			this.body =
-				yield render('index')
-		})
-
-	route('/user')
-		.post(function*() {
-			return 
+				yield render('index');
 		})
 }
