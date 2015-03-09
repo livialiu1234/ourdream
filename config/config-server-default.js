@@ -15,8 +15,6 @@ module.exports = {
 		db: "",
 		pass: ""
 	},
-	serverPath :root+"/server",
-	appPath:root+"/app",
 	staticPath: root+"/app/static/",
 	viewsPath:  root+"/app/views/",
 	template: "html"
